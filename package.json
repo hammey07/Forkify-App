@@ -9,12 +9,12 @@
   "author": "Hammad Saleem",
   "license": "ISC",
   "dependencies": {
+    "fracty": "^1.0.12",
     "parcel": "^2.13.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
     "core-js": "^3.6.5",
-    "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7",
     "svgo": "^3.3.2"
   }
