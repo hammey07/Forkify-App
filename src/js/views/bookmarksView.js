@@ -1,5 +1,5 @@
 import View from './View.js';
-import icon from '../../img/icons.svg';
+import icons from 'url:../../img/icons.svg'; // Parcel 2
 class bookmarksView extends View {
   _parentEl = document.querySelector('.bookmarks__list');
   _successMessage;
@@ -28,7 +28,7 @@ class bookmarksView extends View {
       <div class="preview__user-generated 
         ${result.key ? '' : 'hidden'}">
         <svg>
-          <use href="${icon}#icon-user"></use>
+          <use href="${icons}#icon-user"></use>
         </svg>
       </div>
         </div>
