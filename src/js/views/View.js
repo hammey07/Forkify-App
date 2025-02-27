@@ -1,5 +1,4 @@
-import icons from 'url:../../img/icons.svg'; // Parcel 2
-
+import icons from 'url:/icons.svg';
 export default class View {
   _data;
   render(data) {
