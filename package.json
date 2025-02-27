@@ -2,7 +2,7 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "default" : "index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -16,7 +16,9 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
     "core-js": "^3.6.5",
+    "parcel": "^2.0.0-beta.1",
     "regenerator-runtime": "^0.13.7",
+    "sass": "^1.26.10",
     "svgo": "^3.3.2"
   }
 }
